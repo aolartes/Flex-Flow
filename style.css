@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+.cont-prin{
+    margin-top: 20px;
+    width: 100vw;
+    height: 700px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid blue;
+    background-color: rgb(246, 247, 242);
+    border-radius: 20px;
+}
+.ff-row{
+    background-color: rgb(1, 22, 38);
+
+}
+.prue{
+    border: 1px solid;               
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.prue-row-nowrap{
+    
+    display: flex;  
+    justify-content: center;
+    gap: 5px;
+    flex-flow: row nowrap;        
+}
+
+.prue-row-wrap{
+    
+    display: flex;  
+    justify-content: center;
+    gap: 5px;
+    flex-flow: row wrap;
+}
+
+.prue-wrap-reverse{
+    
+    display: flex;  
+    justify-content: center;
+    gap: 5px;            
+    flex-flow: row wrap-reverse;
+}
+
+.prue-reverse-wrap-reverse{        
+    display: flex;  
+    justify-content: center;
+    gap: 5px;            
+    flex-flow: row-reverse wrap-reverse;
+}
+
+.numers{        
+    border: 1px solid green;
+    font-size: 2rem;
+    color: aliceblue;
+    width: 50px; /* Ancho de tus elementos hijos */
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+.numers:nth-child(1){
+    background-color: rgb(168, 238, 132);
+}
+.numers:nth-child(2){
+    background-color: rgb(252, 154, 83);
+}
+.numers:nth-child(3){
+    background-color: rgb(182, 127, 251);
+}
+.numers:nth-child(4){
+    background-color: rgb(241, 107, 88);
+}
+.numers:nth-child(5){
+    background-color: rgb(153, 193, 250);
+}
+.numers:nth-child(6){
+    background-color: rgb(245, 189, 83);
+}
+.numers:nth-child(7){
+    background-color: rgb(254, 153, 80);
+}
+.numers:nth-child(8){
+    background-color: rgb(68, 48, 4);
+}
+.numers:nth-child(9){
+    background-color: rgba(87, 61, 97, 0.815);
+}
+.numers:nth-child(10){
+    background-color: rgb(45, 94, 91);
+}
+h2{
+    font-size: 3rem;
+    color: rgb(130, 123, 216);
+    font-family: "Noto Sans Symbols", sans-serif;
+}
+h3{
+    font-size: 1.5rem;
+    color: rgb(137, 135, 186);
+    font-family: "Noto Sans Symbols", sans-serif;
+}
+p{
+    color: (114, 114, 121);
+    font-size: 2rem;
+    font-family: "Noto Sans Symbols", sans-serif;
+
+}

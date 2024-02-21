@@ -8,11 +8,6 @@ const numeros = (a) =>{
 
 const resultadoMostrar = numeros(10);
 
-console.log("alvar");
-
-
-// document.querySelector('.prue').innerHTML = 'El resultado es: '+resultadoMostrar;
-
 const contenedoresResultados = document.querySelectorAll('.prue, .prue-row-nowrap, .prue-row-wrap, .prue-wrap-reverse, .prue-reverse-wrap-reverse')
 
 for (var i = 0;i<resultadoMostrar.length;i++){
