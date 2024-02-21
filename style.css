@@ -59,7 +59,7 @@
 }
 
 .numers{        
-    border: 1px solid green;
+    
     font-size: 2rem;
     color: aliceblue;
     width: 50px; /* Ancho de tus elementos hijos */
